@@ -30,7 +30,7 @@ export const Founders_Profiles = [
         title="Kappa"
         text={
             <>
-                <a href = "/members/kappa" > Kappa </a> {" "}
+                <a href = "https://kappa.unnamedsoftware.com" > Kappa </a> {" "}
                  one of the most inspirational programmers in the entire century. {"🙂"}
             </>
         }
