@@ -1,0 +1,58 @@
+.profileSize {
+    border-radius: 20px 20px 0px 0px;
+    width: 18rem;
+    overflow: hidden;
+}
+
+.imgProfile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto ;
+    margin-top: 15px;
+}
+/* 
+.imgProfile > img {
+    height: 250px;
+} */
+
+@media only screen and (max-width: 600px) {
+    .profileSize {
+        width: 12rem;
+    }
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10px 0% 10px;
+}
+
+.cardBody a {
+    color: black;
+}
+
+.cardBody a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+.cardBody svg{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.positionBody {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0% 10px 0% 10px;
+    font-weight: bolder;
+}
