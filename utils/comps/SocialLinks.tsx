@@ -15,7 +15,7 @@ const YoutubeLink = (props) => {
  
 
   return(
-    <a href={`https://youtube.com/channel/${props.link}`}>
+    <a href={`/members/${props.link}/youtube`}>
         <FiYoutube/>
     </a>
     );
@@ -23,22 +23,34 @@ const YoutubeLink = (props) => {
 
 const InstaLink = (props) => {
   return (
-    <a href={`https://instagram.com/${props.link}`}>
+    <a href={`/members/${props.link}/instagram`}>
       <FiInstagram />
     </a>
   );
 };
 
 const TwitterLink = (props) => {
-  return <a href={`https://twitter.com/${props.link}`}><FiTwitter/></a>;
+  return (
+    <a href={`/members/${props.link}/twitter`}>
+      <FiTwitter />
+    </a>
+  );
 };
 
 const TwitchLink = (props) => {
-  return <a href={`https://twitch.tv/${props.link}`}><FiTwitch/></a>;
+  return (
+    <a href={`/members/${props.link}/twitch`}>
+      <FiTwitch />
+    </a>
+  );
 };
 
 const GithubLink = (props) => {
-  return <a href={`https://github.com/${props.link}`}><FiGithub/></a>;
+  return (
+    <a href={`/members/${props.link}/github`}>
+      <FiGithub />
+    </a>
+  );
 }
 
 export  {
