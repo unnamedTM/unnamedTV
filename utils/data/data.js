@@ -8,7 +8,7 @@ export const Founders_Profiles = [
       <Profile
         img = "/images/alex.png"
         title={'"Alex"'}
-        text = "Dud nice projects is going on here. Dont know how to program but I'm quite enthusiastic"
+        text = "I don't know shit. But thats cool"
         button="Instagram | Loser"
         buttonHref="https://instagram.com/xunderal"
         marginTop = "-45px"
@@ -65,6 +65,7 @@ export const Founders_Profiles = [
         twitter = "dimory1"
         youtube = "UC7RTYzr08Nw-0_YS3VTizpQ"
         position = "Lead Programming Engineer | CTO"
+        // position = "JANITOR | VIRGIN"
       />
     ),
   },
