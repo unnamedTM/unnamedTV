@@ -43,7 +43,7 @@ const beta = () => {
 
               <div className={styles.formSpaceDivider}>
                 <label htmlFor="password">Password</label>
-                <Field id="password" name="password" placeholder="Mama" />
+                <Field id="password" name="password" type="password" placeholder="Mama" />
               </div>
 
               <button type="submit">Submit</button>
