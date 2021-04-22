@@ -20,7 +20,7 @@ const withImages = require('next-images')
                     permanent: true,
                 }, {
                     source: '/members/kappa/youtube',
-                    destination: 'https://youtube.com/channel/UCzC5LlsyJtdLhXnEUK0p8Zw',
+                    destination: 'https://youtube.com/channel/UCOkj83ZLAGRakoJV3gQPqew',
                     permanent: true,
                 },
                 {
