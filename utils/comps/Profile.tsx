@@ -1,6 +1,6 @@
 import { Card, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Link from "next/link";
+
 import React from 'react'
 import {YoutubeLink, InstaLink, TwitterLink, TwitchLink, GithubLink} from './SocialLinks' 
 import profile from "../../styles/Profiles.module.css";
