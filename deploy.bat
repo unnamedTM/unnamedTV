@@ -1,5 +1,5 @@
-git pull unnamedgit main
+git pull unnamedgit master
 git add .
 git commit -m "x"
-git push unnamedgit main
+git push unnamedgit master
 vercel --prod

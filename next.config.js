@@ -1,9 +1,8 @@
 const withImages = require('next-images')
-module.exports =
- {
+    module.exports = withImages(), {
+        
         async redirects() {
-            return [
-                {
+            return [{
                     source: '/members/kappa/twitter',
                     destination: 'https://twitter.com/kappac0dex',
                     permanent: true,
