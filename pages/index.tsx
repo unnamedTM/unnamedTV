@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Founders_Profiles } from "../utils/data/data";
-
 import Head from "next/head";
 import Link from 'next/link';
 
@@ -55,6 +54,7 @@ export default function Home() {
         <br></br>
         <br></br>
         <br></br>
+        
       </Layout>
     </>
   );

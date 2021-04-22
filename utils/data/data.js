@@ -1,5 +1,6 @@
-import Link from 'next/link';
+
 import Profile from '../comps/Profile'
+
 
 export const Founders_Profiles = [
   {
@@ -13,11 +14,11 @@ export const Founders_Profiles = [
         buttonHref="https://instagram.com/xunderal"
         marginTop = "-45px"
         height = "291px"
-        insta="xunderal"
-        youtube = "UCzC5LlsyJtdLhXnEUK0p8Zw"
-        twitter="xunderal"
-        github="bobsolomos"
-        twitch="itsxunderal"
+        insta="alex"
+        youtube = "alex"
+        twitter="alex"
+        github="alex"
+        twitch="alex"
         position = "Social Media Manager | COO"
       />
     ),
@@ -31,18 +32,18 @@ export const Founders_Profiles = [
         text={
             <>
                 <a href = "https://kappa.unnamedsoftware.com" > Kappa </a> {" "}
-                 one of the most inspirational programmers in the entire century. {"😔"}
+                 one of the most inspirational programmers in the entire century. {"🙂"}
             </>
         }
         button="Twitter"
         buttonHref = "https://twitter.com/kappac0dex"
         marginTop = "-23px"
         height = "268px"
-        twitch="kappac0dex"
-        insta="kappac0dex"
-        github="kappac0dex"
-        twitter="kappac0dex"
-        youtube = "UCOkj83ZLAGRakoJV3gQPqew"
+        twitch="kappa"
+        insta="kappa"
+        github="kappa"
+        twitter="kappa"
+        youtube = "kappa"
         position = "CEO"
       />
     ),
@@ -62,8 +63,8 @@ export const Founders_Profiles = [
         height = "150px"
         github= "lingduck"
         twitch = "lingduck"
-        twitter = "dimory1"
-        youtube = "UC7RTYzr08Nw-0_YS3VTizpQ"
+        twitter = "lingduck"
+        youtube = "lingduck"
         position = "Lead Programming Engineer | CTO"
         // position = "JANITOR | VIRGIN"
       />
@@ -86,7 +87,7 @@ export const Teams_Profiles = [{
         id: 2,
         comp: ( <
             Profile img = "https://pyxis.nymag.com/v1/imgs/8f3/7a4/1f1367f36279714e6ab2ab75a55b5bd2ff-15-tyler-the-creator.rsquare.w1200.jpg"
-            title = "2 nibba"
+            title = "2 c"
             text = "myname"
             button = "button" /
             >
@@ -96,7 +97,7 @@ export const Teams_Profiles = [{
         id: 3,
         comp: ( <
             Profile img = "https://pyxis.nymag.com/v1/imgs/8f3/7a4/1f1367f36279714e6ab2ab75a55b5bd2ff-15-tyler-the-creator.rsquare.w1200.jpg"
-            title = "3 nibbas"
+            title = "3 c"
             text = "myname"
             button = "button" /
             >
