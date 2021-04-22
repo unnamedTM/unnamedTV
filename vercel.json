@@ -1,38 +1,51 @@
 {
   "redirects": [
-   {
-                    "source": "/members/:slug/twitter",
-                    "destination": "https://twitter.com/:slug",
-                    "permanent": true
-                },
-                {
-                    "source": "/members/:slug/instagram",
+                 {
+                   "source": "/members/:slug/twitter",
+                   "destination": "https://twitter.com/:slug",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/members/:slug/instagram",
 
-                    "destination": "https://instagram.com/:slug",
-                    "permanent": true
-                },
-                {
-                    "source": "/members/:slug/github",
+                   "destination": "https://instagram.com/:slug",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/members/:slug/github",
 
-                    "destination": "https://github.com/:slug",
-                    "permanent": true
-                },
-                {
-                    "source": "/members/:slug/twitch",
+                   "destination": "https://github.com/:slug",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/members/:slug/twitch",
 
-                    "destination": "https://twitch.tv/:slug",
-                    "permanent": true
-                },
-                {
-                    "source": "/discord",
-                    "destination": "https://discord.gg/naHDBvYdYv",
-                    "permanent": true
-                },
-                {
-                    "source": "/members/:slug/youtube",
+                   "destination": "https://twitch.tv/:slug",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/discord",
+                   "destination": "https://discord.gg/naHDBvYdYv",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/members/kappa/youtube",
 
-                    "destination": "https://youtube.com/channel/:slug",
-                    "permanent": true
-                }
-  ]
+                   "destination": "https://youtube.com/channel/UCOkj83ZLAGRakoJV3gQPqew",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/members/xunderal/youtube",
+
+                   "destination": "https://youtube.com/channel/xunderal",
+                   "permanent": true
+                 },
+                 {
+                   "source": "/members/lingduck/youtube",
+
+                   "destination": "https://youtube.com/channel/UC7RTYzr08Nw-0_YS3VTizpQ",
+                   "permanent": true
+                 }
+                 
+               ]
 }
