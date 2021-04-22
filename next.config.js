@@ -2,7 +2,13 @@ const withImages = require('next-images')
     module.exports = withImages() ,{
         distDir: 'build',
         async redirects() {
-            return [{
+            return [
+                {
+                    source: '/members/kappa/spotify',
+                    destination: 'https://open.spotify.com/user/jackeboy50?si=95890773d97d4303',
+                    permanent: true,
+                },
+                {
                     source: '/members/kappa/twitter',
                     destination: 'https://twitter.com/kappac0dex',
                     permanent: true,
