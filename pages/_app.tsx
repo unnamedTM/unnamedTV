@@ -13,7 +13,7 @@ const MyApp: React.FC<_appProps> = ({ Component, pageProps }) => {
       <>
         <Head>
           <title>{"unnamed[tv]"}</title>
-          <link rel="shortcut icon" href="/images/favicon.ico" />
+          <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="manifest" href="/manifest.json" />
         </Head>
         <link
