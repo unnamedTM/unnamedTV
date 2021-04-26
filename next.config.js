@@ -4,28 +4,28 @@ const withImages = require('next-images')
         async redirects() {
             return [
                 {
-                    source: '/members/kappa/spotify',
+                    source: '/kappa/spotify',
                     destination: 'https://open.spotify.com/user/jackeboy50?si=95890773d97d4303',
                     permanent: true,
                 },
                 {
-                    source: '/members/kappa/twitter',
+                    source: '/kappa/twitter',
                     destination: 'https://twitter.com/kappac0dex',
                     permanent: true,
                 }, {
-                    source: '/members/kappa/instagram',
+                    source: '/kappa/instagram',
                     destination: 'https://instagram.com/kappac0dex',
                     permanent: true,
                 }, {
-                    source: '/members/kappa/github',
+                    source: '/kappa/github',
                     destination: 'https://github.com/kappac0dex',
                     permanent: true,
                 }, {
-                    source: '/members/kappa/twitch',
+                    source: '/kappa/twitch',
                     destination: 'https://twitch.tv/kappac0dex',
                     permanent: true,
                 }, {
-                    source: '/members/kappa/youtube',
+                    source: '/kappa/youtube',
                     destination: 'https://youtube.com/channel/UCOkj83ZLAGRakoJV3gQPqew',
                     permanent: true,
                 },
@@ -35,44 +35,44 @@ const withImages = require('next-images')
                     permanent: true,
                 },
                 {
-                    source: '/members/alex/twitter',
+                    source: '/alex/twitter',
                     destination: 'https://twitter.com/xunderal',
                     permanent: true,
                 }, {
-                    source: '/members/alex/instagram',
+                    source: '/alex/instagram',
                     destination: 'https://instagram.com/xunderal',
                     permanent: true,
                 }, {
-                    source: '/members/alex/github',
+                    source: '/alex/github',
                     destination: 'https://github.com/bobsolomos',
                     permanent: true,
                 }, {
-                    source: '/members/alex/twitch',
+                    source: '/alex/twitch',
                     destination: 'https://twitch.tv/itsxunderal',
                     permanent: true,
                 }, {
-                    source: '/members/alex/youtube',
+                    source: '/alex/youtube',
                     destination: 'https://youtube.com/c/xunderal',
                     permanent: true,
                 },
                 {
-                    source: '/members/lingduck/twitter',
+                    source: '/lingduck/twitter',
                     destination: 'https://twitter.com/dimory1',
                     permanent: true,
                 }, {
-                    source: '/members/lingduck/instagram',
+                    source: '/lingduck/instagram',
                     destination: 'https://instagram.com/lingduck',
                     permanent: true,
                 }, {
-                    source: '/members/lingduck/github',
+                    source: '/lingduck/github',
                     destination: 'https://github.com/lingduck',
                     permanent: true,
                 }, {
-                    source: '/members/lingduck/twitch',
+                    source: '/lingduck/twitch',
                     destination: 'https://twitch.tv/lingduck',
                     permanent: true,
                 }, {
-                    source: '/members/lingduck/youtube',
+                    source: '/lingduck/youtube',
                     destination: 'https://youtube.com/channel/UC7RTYzr08Nw-0_YS3VTizpQ',
                     permanent: true,
                 },

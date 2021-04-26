@@ -1,29 +1,23 @@
-
 import React from "react";
-
-
-import { FiTwitter, FiYoutube, FiInstagram, FiTwitch, FiGithub } from "react-icons/fi";
 import {
-  AiFillYoutube,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-
-
+  FiGithub,
+  FiInstagram,
+  FiTwitch,
+  FiTwitter,
+  FiYoutube,
+} from "react-icons/fi";
 
 const YoutubeLink = (props) => {
- 
-
-  return(
-    <a href={`/members/${props.link}/youtube`}>
-        <FiYoutube/>
+  return (
+    <a href={`/${props.link}/youtube`}>
+      <FiYoutube />
     </a>
-    );
+  );
 };
 
 const InstaLink = (props) => {
   return (
-    <a href={`/members/${props.link}/instagram`}>
+    <a href={`/${props.link}/instagram`}>
       <FiInstagram />
     </a>
   );
@@ -31,7 +25,7 @@ const InstaLink = (props) => {
 
 const TwitterLink = (props) => {
   return (
-    <a href={`/members/${props.link}/twitter`}>
+    <a href={`/${props.link}/twitter`}>
       <FiTwitter />
     </a>
   );
@@ -39,7 +33,7 @@ const TwitterLink = (props) => {
 
 const TwitchLink = (props) => {
   return (
-    <a href={`/members/${props.link}/twitch`}>
+    <a href={`/${props.link}/twitch`}>
       <FiTwitch />
     </a>
   );
@@ -47,16 +41,10 @@ const TwitchLink = (props) => {
 
 const GithubLink = (props) => {
   return (
-    <a href={`/members/${props.link}/github`}>
+    <a href={`/${props.link}/github`}>
       <FiGithub />
     </a>
   );
-}
-
-export  {
-  YoutubeLink,
-  InstaLink,
-  TwitterLink,
-  TwitchLink,
-  GithubLink,
 };
+
+export { YoutubeLink, InstaLink, TwitterLink, TwitchLink, GithubLink };
