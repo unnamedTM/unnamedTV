@@ -1,10 +1,10 @@
-.Link > a {
+.Link>a {
     color: black;
     padding: 10px;
-    
+
 }
 
-.Image {
-    border-radius: 0px 0px 50% 50%;
+.DaContainer {
+    /* border-radius: 0px 0px 50% 50%; */
     filter: drop-shadow(-6px 1px 4px #00000070);
 }
