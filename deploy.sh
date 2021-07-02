@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git pull unnamedgit master
 git add .
 git commit -m "x"
