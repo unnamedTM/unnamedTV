@@ -28,7 +28,9 @@ const beta = () => {
             onSubmit={async (values) => {
               await new Promise((r) => setTimeout(r, 500));
               // alert(JSON.stringify(values, null, 2));
-              alert("BETAX IS CURRENTLY UNAVAILABLE PLEASE CONTACT US AT: SUPPORT@UNNAMEDSOFTWARE.COM")
+              alert(
+                "BETAX IS CURRENTLY UNAVAILABLE PLEASE CONTACT US AT: SUPPORT@UNNAMEDSOFTWARE.COM"
+              );
             }}
           >
             <Form className={styles.form}>
@@ -43,7 +45,12 @@ const beta = () => {
 
               <div className={styles.formSpaceDivider}>
                 <label htmlFor="password">Password</label>
-                <Field id="password" name="password" type="password" placeholder="Mama" />
+                <Field
+                  id="password"
+                  name="password"
+                  type="password"
+                  placeholder="Mama"
+                />
               </div>
 
               <button type="submit">Submit</button>
@@ -56,7 +63,6 @@ const beta = () => {
             <Link href="/">Go Home</Link>
           </div>
         </div>
-
       </main>
       <footer className={styles.footer}>
         <Link href="/">

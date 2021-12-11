@@ -5,7 +5,7 @@ export const Founders_Profiles = [
     id: 2,
     comp: (
       <Profile
-        img="/images/alex.png"
+        img="/images/alex.webp"
         title={'"Alex"'}
         text="I don't know shit. But thats cool"
         button="Instagram | Loser"
@@ -25,7 +25,7 @@ export const Founders_Profiles = [
     id: 1,
     comp: (
       <Profile
-        img="/images/haha.jpg"
+        img="/images/haha.webp"
         title="Kappa"
         text={
           <>
@@ -50,7 +50,7 @@ export const Founders_Profiles = [
     id: 3,
     comp: (
       <Profile
-        img="/images/dimitri.jpg"
+        img="/images/dimitri.webp"
         title="Dimitris"
         text={<>Call me 📞</>}
         button="Twitter | lol"
