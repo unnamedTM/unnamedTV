@@ -5,7 +5,7 @@ export default function SoftwarePage() {
   return (
     <Nav>
       <main className="my-7 flex justify-center items-center">
-        <div className="flex items-center flex-row">
+        <div className="flex items-center flex-col sm:flex-row ">
           <h3 className="mr-7 text-center text-md sm:text-sm max-w-md">
             <a
               href="https://sfs.unnamedsoftware.com"
@@ -21,7 +21,7 @@ export default function SoftwarePage() {
           <a href="https://sfs.unnamedsoftware.com">
             <img
               src="/sfs.unnamedsoftware.png"
-              className="max-w-md"
+              className="md:max-w-lg lg:max-w-lg sm:max-w-none md:w-auto sm:w-1"
               alt="sfs"
             />
           </a>
